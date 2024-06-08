@@ -1,0 +1,11 @@
+.menuScreen {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.menuScreen h2 {
+  font-size: 44px;
+  color: white;
+}

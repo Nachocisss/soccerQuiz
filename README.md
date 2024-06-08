@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+# World Cup Quiz App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![World Cup Quiz App Banner](https://path/to/banner-image.png) <!-- Replace with the actual path to the image -->
 
-## Available Scripts
+Welcome to the **World Cup Quiz App**! This application is designed to test your knowledge about the World Cup, the world's most popular football tournament. The quiz covers various aspects of the tournament, including historical moments, player statistics, and general trivia. It’s a fun and engaging way to learn more about the World Cup.
 
-In the project directory, you can run:
+This project is part of a monthly challenge hosted by [mouredev](https://github.com/mouredev/Monthly-App-Challenge-2022?tab=readme-ov-file#febrero-030222). Feel free to check out other exciting projects and challenges on the mouredev repository.
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Acknowledgments](#acknowledgments)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- **Multiple Choice Questions:** Answer questions with multiple choices.
+- **Leaderboard:** Compare your scores with other users globally.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+To get started with the World Cup Quiz App, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/world-cup-quiz-app.git
+   ```
+2. **Navigate to the project directory:**
+   ```bash
+   cd world-cup-quiz-app
+   ```
+3. **Install the dependencies:**
+   ```bash
+   npm install
+   ```
+4. **Start the application:**
+   ```bash
+   npm start
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Open your web browser and navigate to `http://localhost:3000` to access the app.
+2. Choose a quiz category related to the World Cup.
+3. Start answering the questions within the time limit.
+4. Submit your answers and check your score.
 
-### `npm run eject`
+## Screenshots
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Home Page
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Home Page](https://path/to/home-page-screenshot.png) <!-- Replace with the actual path to the image -->
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Quiz Interface
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![Quiz Interface](https://path/to/quiz-interface-screenshot.png) <!-- Replace with the actual path to the image -->
 
-## Learn More
+### Leaderboard
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Leaderboard](https://path/to/leaderboard-screenshot.png) <!-- Replace with the actual path to the image -->
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Acknowledgments
 
-### Code Splitting
+- Special thanks to [mouredev](https://github.com/mouredev) for the inspiration and challenge.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+[Back to Top](#world-cup-quiz-app)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+### Additional Resources
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- [mouredev Monthly Challenges](https://github.com/mouredev/Monthly-App-Challenge-2022)
+- [React Documentation](https://reactjs.org/docs/getting-started.html)
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Made with ❤️ by [Nachociss](https://github.com/Nachocisss).
