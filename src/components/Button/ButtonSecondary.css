@@ -1,11 +1,7 @@
 .buttonContainerSecondary {
-  flex: 1;
-  border: 1px solid gray;
-  width: 80%;
-  padding: 12px;
-  border-radius: 8px;
-  margin: 12px auto;
+  background-color: transparent;
 }
 .buttonTitleSecondary {
   margin-left: 8px;
+  color: black;
 }

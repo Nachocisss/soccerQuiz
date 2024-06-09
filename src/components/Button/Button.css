@@ -7,9 +7,14 @@
   margin: auto;
   cursor: pointer;
   background: tomato;
+  margin-top: 8px;
+}
+.buttonContainer:hover {
+  background: rgb(250, 68, 36);
 }
 .buttonTitle {
   font-size: 16px;
+  font-weight: 600;
   margin-left: 8px;
   color: white;
 }

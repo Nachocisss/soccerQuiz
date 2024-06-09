@@ -12,14 +12,14 @@ const menuButtons = [
   },
   {
     title: "High Scores",
-    icon: <TfiCup size={15} fill="white" />,
+    icon: <TfiCup size={15} />,
     type: "Secondary",
   },
 ];
 
 function menuCard() {
   return (
-    <div className="CardContainer">
+    <div className="cardContainer">
       <h2>World Cup Party Quiz</h2>
       <h3>{"subtitle"}</h3>
       {menuButtons.map((m) => {
