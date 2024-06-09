@@ -1,0 +1,293 @@
+[
+  {
+    "question": "¿En qué año se celebró la primera Copa Mundial de la FIFA?",
+    "alternatives": ["1930", "1948", "1954", "1962"],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué país ha ganado más Copas del Mundo?",
+    "alternatives": ["Argentina", "Alemania", "Brasil", "Italia"],
+    "answer": 2
+  },
+  {
+    "question": "¿Qué jugador anotó el 'Gol del Siglo' en el Mundial de 1986?",
+    "alternatives": [
+      "Diego Maradona",
+      "Pelé",
+      "Lionel Messi",
+      "Zinedine Zidane"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué país fue anfitrión de la Copa Mundial de la FIFA de 2018?",
+    "alternatives": ["Alemania", "Rusia", "Brasil", "Sudáfrica"],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué país es el único que ha ganado la Copa del Mundo 5 veces?",
+    "alternatives": ["Alemania", "Italia", "Argentina", "Brasil"],
+    "answer": 3
+  },
+  {
+    "question": "¿Quién ganó la Copa Mundial de la FIFA de 2010?",
+    "alternatives": ["Italia", "Brasil", "Alemania", "España"],
+    "answer": 3
+  },
+  {
+    "question": "¿En qué país se celebró la Copa Mundial de la FIFA de 2014?",
+    "alternatives": ["Alemania", "Brasil", "Argentina", "Francia"],
+    "answer": 1
+  },
+  {
+    "question": "¿Cuál de estos países nunca ha ganado una Copa del Mundo?",
+    "alternatives": ["Uruguay", "Inglaterra", "Países Bajos", "Francia"],
+    "answer": 2
+  },
+  {
+    "question": "¿Cuántos equipos participaron en la primera Copa del Mundo?",
+    "alternatives": ["8", "13", "16", "32"],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué país fue el anfitrión de la primera Copa del Mundo?",
+    "alternatives": ["Argentina", "Italia", "Uruguay", "Brasil"],
+    "answer": 2
+  },
+  {
+    "question": "¿Qué jugador es conocido como 'O Rei' en el mundo del fútbol?",
+    "alternatives": [
+      "Pelé",
+      "Diego Maradona",
+      "Lionel Messi",
+      "Cristiano Ronaldo"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué país ganó la Copa Mundial de la FIFA de 1998?",
+    "alternatives": ["Argentina", "Francia", "Alemania", "Italia"],
+    "answer": 1
+  },
+  {
+    "question": "¿En qué Copa del Mundo se utilizó por primera vez el VAR (Asistente de Árbitro por Video)?",
+    "alternatives": ["2014", "2010", "2018", "2022"],
+    "answer": 2
+  },
+  {
+    "question": "¿Qué país ha sido anfitrión de más Copas del Mundo?",
+    "alternatives": ["Brasil", "Alemania", "Italia", "México"],
+    "answer": 3
+  },
+  {
+    "question": "¿Qué jugador es el máximo goleador en la historia de los Mundiales?",
+    "alternatives": [
+      "Diego Maradona",
+      "Ronaldo Nazário",
+      "Miroslav Klose",
+      "Lionel Messi"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Cuál fue el primer país africano en llegar a los cuartos de final de una Copa del Mundo?",
+    "alternatives": ["Nigeria", "Camerún", "Senegal", "Ghana"],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué país ganó la Copa Mundial de la FIFA de 2002?",
+    "alternatives": ["Brasil", "Alemania", "Italia", "Argentina"],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué país ganó la Copa Mundial de la FIFA de 2006?",
+    "alternatives": ["Brasil", "Francia", "Alemania", "Italia"],
+    "answer": 3
+  },
+  {
+    "question": "¿Qué jugador anotó el gol de la victoria en la final del Mundial de 2014?",
+    "alternatives": ["Lionel Messi", "Mario Götze", "Neymar", "Thomas Müller"],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué país fue el primero en ganar la Copa del Mundo en su propio continente, pero fuera de su país de origen?",
+    "alternatives": ["Brasil", "Argentina", "Italia", "Alemania"],
+    "answer": 0
+  },
+
+  {
+    "question": "¿En qué año ganó Brasil su primer Mundial de la FIFA?",
+    "alternatives": ["1950", "1958", "1962", "1970"],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué país ganó el primer Mundial de la FIFA?",
+    "alternatives": ["Brasil", "Uruguay", "Argentina", "Italia"],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué país fue el anfitrión del Mundial de 1994?",
+    "alternatives": ["Estados Unidos", "Francia", "Brasil", "Italia"],
+    "answer": 0
+  },
+  {
+    "question": "¿Quién es conocido como el jugador de la 'Mano de Dios'?",
+    "alternatives": [
+      "Diego Maradona",
+      "Pelé",
+      "Cristiano Ronaldo",
+      "Lionel Messi"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué país ha aparecido en más finales de la Copa del Mundo?",
+    "alternatives": ["Brasil", "Alemania", "Italia", "Argentina"],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué país ganó el Mundial de la FIFA de 1966?",
+    "alternatives": ["Alemania", "Brasil", "Inglaterra", "Italia"],
+    "answer": 2
+  },
+  {
+    "question": "¿Qué país fue subcampeón en el Mundial de la FIFA de 2014?",
+    "alternatives": ["Brasil", "Alemania", "Argentina", "Países Bajos"],
+    "answer": 2
+  },
+  {
+    "question": "¿Con qué frecuencia se celebra la Copa Mundial de la FIFA?",
+    "alternatives": [
+      "Cada 2 años",
+      "Cada 4 años",
+      "Cada 6 años",
+      "Cada 8 años"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué país fue el anfitrión del Mundial de la FIFA de 2006?",
+    "alternatives": ["Alemania", "Francia", "Italia", "Sudáfrica"],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué país ganó el Mundial de la FIFA de 1982?",
+    "alternatives": ["Brasil", "Italia", "Alemania", "Argentina"],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué jugador ganó la Bota de Oro en el Mundial de 2014?",
+    "alternatives": [
+      "Thomas Müller",
+      "Lionel Messi",
+      "James Rodríguez",
+      "Neymar"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Qué país fue el primero en albergar dos Mundiales?",
+    "alternatives": ["Brasil", "Italia", "Francia", "México"],
+    "answer": 3
+  },
+  {
+    "question": "¿Qué país ganó el primer Mundial celebrado en Asia?",
+    "alternatives": ["Brasil", "Corea del Sur", "Alemania", "Italia"],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué país ganó el Mundial de la FIFA de 1970?",
+    "alternatives": ["Italia", "Brasil", "Alemania", "Argentina"],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué país fue el primero en ganar Mundiales consecutivos?",
+    "alternatives": ["Brasil", "Italia", "Argentina", "Uruguay"],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué jugador anotó más goles en un solo Mundial?",
+    "alternatives": ["Ronaldo", "Just Fontaine", "Gerd Müller", "Pelé"],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué país fue el anfitrión del Mundial de la FIFA de 1986?",
+    "alternatives": ["España", "México", "Argentina", "Brasil"],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué jugador es conocido como 'El Fenómeno'?",
+    "alternatives": ["Diego Maradona", "Pelé", "Ronaldo", "Lionel Messi"],
+    "answer": 2
+  },
+  {
+    "question": "¿Qué país ganó el Mundial de la FIFA de 1990?",
+    "alternatives": ["Italia", "Argentina", "Alemania", "Brasil"],
+    "answer": 2
+  },
+  {
+    "question": "¿Qué país tiene el apodo de 'Los Tres Leones'?",
+    "alternatives": ["Inglaterra", "Alemania", "Argentina", "Francia"],
+    "answer": 0
+  },
+  {
+    "question": "¿Quién ganó el Balón de Oro en el Mundial de 2010?",
+    "alternatives": [
+      "Diego Forlán",
+      "Lionel Messi",
+      "Andrés Iniesta",
+      "Cristiano Ronaldo"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué país fue el anfitrión del primer Mundial del siglo XXI?",
+    "alternatives": ["Francia", "Alemania", "Japón/Corea del Sur", "Brasil"],
+    "answer": 2
+  },
+  {
+    "question": "¿Qué equipo ganó el Mundial de la FIFA de 1998 en Francia?",
+    "alternatives": ["Brasil", "Italia", "Alemania", "Francia"],
+    "answer": 3
+  },
+  {
+    "question": "¿Qué país ganó el Mundial de la FIFA de 1978?",
+    "alternatives": ["Brasil", "Italia", "Argentina", "Alemania"],
+    "answer": 2
+  },
+  {
+    "question": "¿Qué país fue el primero en albergar un Mundial en África?",
+    "alternatives": ["Nigeria", "Sudáfrica", "Egipto", "Marruecos"],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué jugador es conocido por su 'Escorpión'?",
+    "alternatives": [
+      "Lev Yashin",
+      "Gordon Banks",
+      "René Higuita",
+      "Iker Casillas"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Qué país tiene un jugador apodado 'Zizou'?",
+    "alternatives": ["Brasil", "Alemania", "Francia", "Italia"],
+    "answer": 2
+  },
+  {
+    "question": "¿Qué país tiene un estadio conocido como 'La Bombonera'?",
+    "alternatives": ["Brasil", "Argentina", "Italia", "Alemania"],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué país ganó el primer Mundial después de la Segunda Guerra Mundial?",
+    "alternatives": ["Alemania", "Italia", "Brasil", "Uruguay"],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué país ganó el Mundial de la FIFA de 1994 en Estados Unidos?",
+    "alternatives": ["Italia", "Brasil", "Alemania", "Argentina"],
+    "answer": 1
+  }
+]

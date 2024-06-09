@@ -1,0 +1,227 @@
+[
+  {
+    "question": "Which country won the World Cup in 1950 with a historic victory over Brazil in the final match?",
+    "alternatives": ["Argentina", "Germany", "Uruguay", "Italy"],
+    "answer": 2
+  },
+  {
+    "question": "Which player scored the most goals in a single World Cup match, with 5 goals?",
+    "alternatives": [
+      "Oleg Salenko",
+      "Just Fontaine",
+      "Gary Lineker",
+      "Gerd Müller"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which team did not concede a single goal throughout the entire 1998 World Cup?",
+    "alternatives": ["Brazil", "Italy", "France", "Netherlands"],
+    "answer": 2
+  },
+  {
+    "question": "Which country holds the record for the most World Cup final losses?",
+    "alternatives": ["Germany", "Brazil", "Argentina", "Netherlands"],
+    "answer": 0
+  },
+  {
+    "question": "Which goalkeeper has kept the most clean sheets in World Cup history?",
+    "alternatives": [
+      "Peter Shilton",
+      "Fabien Barthez",
+      "Iker Casillas",
+      "Dino Zoff"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which player was the first to score in four different World Cups?",
+    "alternatives": [
+      "Pele",
+      "Miroslav Klose",
+      "Cristiano Ronaldo",
+      "Uwe Seeler"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Which country won the World Cup in 1982 with a memorable 3-1 victory over Germany?",
+    "alternatives": ["Brazil", "Argentina", "Italy", "France"],
+    "answer": 2
+  },
+  {
+    "question": "Which country won the 1978 World Cup, hosted in their home country?",
+    "alternatives": ["Germany", "Brazil", "Italy", "Argentina"],
+    "answer": 3
+  },
+  {
+    "question": "Which player holds the record for the most goals scored in a single World Cup tournament?",
+    "alternatives": ["Ronaldo", "Just Fontaine", "Gary Lineker", "Gerd Müller"],
+    "answer": 1
+  },
+  {
+    "question": "Which country has won the most FIFA World Cups in South America?",
+    "alternatives": ["Brazil", "Argentina", "Uruguay", "Chile"],
+    "answer": 0
+  },
+  {
+    "question": "Which country did Italy defeat in the final to win the 2006 World Cup?",
+    "alternatives": ["France", "Germany", "Brazil", "Argentina"],
+    "answer": 0
+  },
+  {
+    "question": "Which team has participated in the most consecutive World Cups?",
+    "alternatives": ["Brazil", "Germany", "Argentina", "Italy"],
+    "answer": 0
+  },
+  {
+    "question": "Which World Cup saw the first use of the golden goal rule?",
+    "alternatives": ["1994", "1998", "2002", "2006"],
+    "answer": 1
+  },
+  {
+    "question": "Which country has the distinction of winning the first penalty shootout in World Cup history?",
+    "alternatives": ["Germany", "Italy", "Brazil", "France"],
+    "answer": 1
+  },
+  {
+    "question": "Which country has the record for the most appearances in World Cup finals?",
+    "alternatives": ["Brazil", "Germany", "Argentina", "Italy"],
+    "answer": 1
+  },
+  {
+    "question": "Which World Cup final was decided by a penalty shootout for the first time?",
+    "alternatives": ["1974", "1982", "1994", "2006"],
+    "answer": 2
+  },
+  {
+    "question": "Which country won the World Cup in 2002 with a perfect record, winning all their matches?",
+    "alternatives": ["Brazil", "Germany", "Argentina", "France"],
+    "answer": 0
+  },
+  {
+    "question": "Which country won the 1962 FIFA World Cup hosted in Chile?",
+    "alternatives": ["Brazil", "Argentina", "Italy", "Uruguay"],
+    "answer": 0
+  },
+  {
+    "question": "Who scored the fastest hat-trick in World Cup history, taking only 6 minutes?",
+    "alternatives": [
+      "Sándor Kocsis",
+      "David Villa",
+      "Eduardo Vargas",
+      "Bryan Robson"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which country finished third in the 1930 FIFA World Cup, the inaugural tournament?",
+    "alternatives": ["Argentina", "Germany", "USA", "Yugoslavia"],
+    "answer": 3
+  },
+  {
+    "question": "Who is the oldest player to have appeared in a World Cup match?",
+    "alternatives": [
+      "Essam El-Hadary",
+      "Roger Milla",
+      "Faryd Mondragón",
+      "Dino Zoff"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which country won the first World Cup held after World War II?",
+    "alternatives": ["Uruguay", "Brazil", "Italy", "Switzerland"],
+    "answer": 0
+  },
+  {
+    "question": "Which player has the record for the most World Cup assists?",
+    "alternatives": [
+      "Andrés Iniesta",
+      "Pele",
+      "Diego Maradona",
+      "Lionel Messi"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which team won the 1958 FIFA World Cup, held in Sweden?",
+    "alternatives": ["Brazil", "France", "Germany", "Argentina"],
+    "answer": 0
+  },
+  {
+    "question": "Who scored the winning goal in the 1990 FIFA World Cup final?",
+    "alternatives": [
+      "Andreas Brehme",
+      "Rudi Völler",
+      "Lothar Matthäus",
+      "Karl-Heinz Rummenigge"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which country won the 1934 FIFA World Cup, held in Italy?",
+    "alternatives": ["Germany", "Uruguay", "Argentina", "Italy"],
+    "answer": 3
+  },
+  {
+    "question": "Who is the only player to have won three World Cups as a player?",
+    "alternatives": ["Pelé", "Diego Maradona", "Cafu", "Mário Zagallo"],
+    "answer": 2
+  },
+  {
+    "question": "Which country won the 1974 FIFA World Cup hosted in West Germany?",
+    "alternatives": ["Netherlands", "Brazil", "Argentina", "Italy"],
+    "answer": 0
+  },
+  {
+    "question": "Who scored the first goal in the history of the FIFA World Cup?",
+    "alternatives": [
+      "Lucien Laurent",
+      "Bert Patenaude",
+      "Georges Meuris",
+      "Petr Fiala"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which player has won the most FIFA World Cup Golden Balls?",
+    "alternatives": [
+      "Diego Maradona",
+      "Lionel Messi",
+      "Zinedine Zidane",
+      "Pelé"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which country won the FIFA World Cup in 1938, hosted in France?",
+    "alternatives": ["Brazil", "Germany", "Italy", "France"],
+    "answer": 2
+  },
+  {
+    "question": "Who is the only goalkeeper to have won the FIFA World Cup Golden Ball?",
+    "alternatives": [
+      "Oliver Kahn",
+      "Lev Yashin",
+      "Manuel Neuer",
+      "Gianluigi Buffon"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which country won the 1966 FIFA World Cup, held in England?",
+    "alternatives": ["England", "Brazil", "Germany", "Italy"],
+    "answer": 0
+  },
+  {
+    "question": "Who is the youngest player to score in a World Cup match?",
+    "alternatives": ["Pelé", "Michael Owen", "Lionel Messi", "Kylian Mbappé"],
+    "answer": 3
+  },
+  {
+    "question": "Which team won the first ever FIFA World Cup match?",
+    "alternatives": ["France", "Mexico", "USA", "Belgium"],
+    "answer": 0
+  }
+]

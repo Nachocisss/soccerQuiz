@@ -1,0 +1,212 @@
+[
+  {
+    "question": "¿Cuál fue el primer país en ganar una Copa del Mundo fuera de su continente?",
+    "alternatives": ["Brasil", "Alemania", "Italia", "Argentina"],
+    "answer": 0
+  },
+  {
+    "question": "¿En qué año se introdujo por primera vez la fase de grupos en la Copa del Mundo?",
+    "alternatives": ["1950", "1930", "1974", "1958"],
+    "answer": 0
+  },
+  {
+    "question": "¿Cuál fue el primer país en ganar la Copa del Mundo dos veces consecutivas?",
+    "alternatives": ["Italia", "Uruguay", "Brasil", "Alemania"],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué país se retiró de la Copa Mundial de 1950 antes de jugar la final?",
+    "alternatives": ["Argentina", "Francia", "India", "España"],
+    "answer": 2
+  },
+  {
+    "question": "¿En qué Copa del Mundo se utilizó por primera vez la tarjeta roja?",
+    "alternatives": ["1970", "1974", "1966", "1982"],
+    "answer": 1
+  },
+  {
+    "question": "¿Cuál es el país que ha jugado más finales de la Copa del Mundo?",
+    "alternatives": ["Brasil", "Alemania", "Italia", "Argentina"],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué jugador fue el máximo goleador en la Copa del Mundo de 2006?",
+    "alternatives": [
+      "Thierry Henry",
+      "Ronaldo Nazário",
+      "Miroslav Klose",
+      "Hernán Crespo"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Qué país ganó la Copa Mundial de la FIFA de 1994?",
+    "alternatives": ["Brasil", "Alemania", "Italia", "Argentina"],
+    "answer": 0
+  },
+  {
+    "question": "¿Quién fue el jugador más joven en anotar un gol en la Copa del Mundo?",
+    "alternatives": ["Pelé", "Lionel Messi", "Michael Owen", "Thomas Müller"],
+    "answer": 0
+  },
+  {
+    "question": "¿Cuál es el único país que ha ganado la Copa del Mundo y no ha disputado la fase de clasificación?",
+    "alternatives": ["Uruguay", "Inglaterra", "Francia", "Italia"],
+    "answer": 0
+  },
+  {
+    "question": "¿En qué país se celebró la Copa Mundial de la FIFA de 1982?",
+    "alternatives": ["Italia", "España", "México", "Argentina"],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué país ganó la primera Copa del Mundo celebrada en Asia?",
+    "alternatives": ["Brasil", "Japón", "Corea del Sur", "Argentina"],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué jugador es conocido por el 'Hat-trick perfecto' en la Copa del Mundo de 1958?",
+    "alternatives": ["Pelé", "Just Fontaine", "Ferenc Puskás", "Geoff Hurst"],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué país fue el primero en organizar dos Copas del Mundo?",
+    "alternatives": ["Italia", "Brasil", "México", "Francia"],
+    "answer": 2
+  },
+  {
+    "question": "¿Qué país ganó la Copa del Mundo en casa en 1978?",
+    "alternatives": ["Argentina", "Brasil", "Alemania", "Italia"],
+    "answer": 0
+  },
+  {
+    "question": "¿En qué Copa del Mundo se disputó el primer 'Gol de Oro'?",
+    "alternatives": ["1998", "1994", "2002", "1990"],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué equipo ha tenido la mayor cantidad de participaciones en la fase final de la Copa del Mundo sin ganar el torneo?",
+    "alternatives": ["México", "Países Bajos", "Portugal", "España"],
+    "answer": 1
+  },
+  {
+    "question": "¿Quién fue el entrenador que llevó a Alemania a ganar la Copa del Mundo en 1990?",
+    "alternatives": [
+      "Franz Beckenbauer",
+      "Joachim Löw",
+      "Jürgen Klinsmann",
+      "Berti Vogts"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿En qué Copa del Mundo Diego Maradona anotó el famoso gol conocido como la 'Mano de Dios'?",
+    "alternatives": ["1982", "1986", "1990", "1994"],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué país fue el primero en ganar la Copa del Mundo con un equipo compuesto mayoritariamente por jugadores de su liga local?",
+    "alternatives": ["Italia", "Uruguay", "Brasil", "Alemania"],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué país ganó el primer Mundial celebrado en África?",
+    "alternatives": ["España", "Brasil", "Alemania", "Sudáfrica"],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué jugador anotó el gol más rápido en la historia de los Mundiales?",
+    "alternatives": [
+      "Pelé",
+      "Hakan Şükür",
+      "Lionel Messi",
+      "Cristiano Ronaldo"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué país ganó la Copa del Mundo por primera vez en 1998?",
+    "alternatives": ["Francia", "Brasil", "Argentina", "Alemania"],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué equipo fue subcampeón en el Mundial de 2010?",
+    "alternatives": ["Países Bajos", "Alemania", "España", "Brasil"],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué país fue el primero en ganar la Copa del Mundo después de una tanda de penales?",
+    "alternatives": ["Brasil", "Italia", "Alemania", "Argentina"],
+    "answer": 1
+  },
+  {
+    "question": "¿En qué año se ganó la Copa del Mundo por segunda vez?",
+    "alternatives": ["1938", "1954", "1958", "1970"],
+    "answer": 0
+  },
+  {
+    "question": "¿Quién fue el primer jugador en anotar un hat-trick en una final de la Copa del Mundo?",
+    "alternatives": ["Pelé", "Geoff Hurst", "Gerd Müller", "Just Fontaine"],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué jugador tiene más apariciones en partidos de la Copa del Mundo?",
+    "alternatives": [
+      "Diego Maradona",
+      "Lothar Matthäus",
+      "Paolo Maldini",
+      "Cafu"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué país ganó la Copa Mundial de la FIFA de 1990?",
+    "alternatives": ["Alemania", "Brasil", "Italia", "Argentina"],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué país ganó la Copa del Mundo en 1954, conocido por el 'Milagro de Berna'?",
+    "alternatives": ["Alemania", "Hungría", "Italia", "Uruguay"],
+    "answer": 0
+  },
+  {
+    "question": "¿En qué Mundial jugó Pelé su último partido?",
+    "alternatives": ["1970", "1966", "1974", "1962"],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué país fue el primero en albergar dos Copas del Mundo?",
+    "alternatives": ["Brasil", "Italia", "México", "Alemania"],
+    "answer": 2
+  },
+  {
+    "question": "¿Qué país acogió el primer Mundial después de la Segunda Guerra Mundial?",
+    "alternatives": ["Brasil", "Suecia", "Italia", "Inglaterra"],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué país ha perdido más finales de la Copa del Mundo?",
+    "alternatives": ["Alemania", "Brasil", "Países Bajos", "Argentina"],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué país ganó la Copa Mundial de la FIFA de 1986?",
+    "alternatives": ["Argentina", "Brasil", "Italia", "Alemania"],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué país es el único que ha llegado a finales de la Copa del Mundo sin ganar nunca?",
+    "alternatives": ["Países Bajos", "Bélgica", "Portugal", "España"],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué jugador anotó más goles en un solo torneo de la Copa del Mundo?",
+    "alternatives": ["Just Fontaine", "Gerd Müller", "Ronaldo Nazário", "Pelé"],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué país ganó la Copa Mundial de la FIFA de 1966?",
+    "alternatives": ["Inglaterra", "Brasil", "Alemania", "Argentina"],
+    "answer": 0
+  }
+]

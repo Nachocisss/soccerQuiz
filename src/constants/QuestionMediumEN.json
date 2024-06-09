@@ -1,0 +1,222 @@
+[
+  {
+    "question": "Which was the first country to win a World Cup outside its continent?",
+    "alternatives": ["Brazil", "Germany", "Italy", "Argentina"],
+    "answer": 0
+  },
+  {
+    "question": "In which year was the group stage introduced for the first time in the World Cup?",
+    "alternatives": ["1950", "1930", "1974", "1958"],
+    "answer": 0
+  },
+  {
+    "question": "Which country was the first to win the World Cup twice in a row?",
+    "alternatives": ["Italy", "Uruguay", "Brazil", "Germany"],
+    "answer": 0
+  },
+  {
+    "question": "Which country withdrew from the 1950 World Cup before playing in the final?",
+    "alternatives": ["Argentina", "France", "India", "Spain"],
+    "answer": 2
+  },
+  {
+    "question": "In which World Cup was the red card used for the first time?",
+    "alternatives": ["1970", "1974", "1966", "1982"],
+    "answer": 1
+  },
+  {
+    "question": "Which country has played the most World Cup finals?",
+    "alternatives": ["Brazil", "Germany", "Italy", "Argentina"],
+    "answer": 1
+  },
+  {
+    "question": "Who was the top scorer in the 2006 World Cup?",
+    "alternatives": [
+      "Thierry Henry",
+      "Ronaldo Nazário",
+      "Miroslav Klose",
+      "Hernán Crespo"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which country won the 1994 FIFA World Cup?",
+    "alternatives": ["Brazil", "Germany", "Italy", "Argentina"],
+    "answer": 0
+  },
+  {
+    "question": "Who was the youngest player to score a goal in the World Cup?",
+    "alternatives": ["Pelé", "Lionel Messi", "Michael Owen", "Thomas Müller"],
+    "answer": 0
+  },
+  {
+    "question": "Which is the only country to have won the World Cup without playing in the qualifiers?",
+    "alternatives": ["Uruguay", "England", "France", "Italy"],
+    "answer": 0
+  },
+  {
+    "question": "In which country was the 1982 FIFA World Cup held?",
+    "alternatives": ["Italy", "Spain", "Mexico", "Argentina"],
+    "answer": 1
+  },
+  {
+    "question": "Which country won the first World Cup held in Asia?",
+    "alternatives": ["Brazil", "Japan", "South Korea", "Argentina"],
+    "answer": 0
+  },
+  {
+    "question": "Which player is known for the 'Perfect Hat-trick' in the 1958 World Cup?",
+    "alternatives": ["Pelé", "Just Fontaine", "Ferenc Puskás", "Geoff Hurst"],
+    "answer": 1
+  },
+  {
+    "question": "Which country was the first to host two World Cups?",
+    "alternatives": ["Italy", "Brazil", "Mexico", "France"],
+    "answer": 2
+  },
+  {
+    "question": "Which country won the World Cup at home in 1978?",
+    "alternatives": ["Argentina", "Brazil", "Germany", "Italy"],
+    "answer": 0
+  },
+  {
+    "question": "In which World Cup was the first 'Golden Goal' scored?",
+    "alternatives": ["1998", "1994", "2002", "1990"],
+    "answer": 0
+  },
+  {
+    "question": "Which team has had the most participations in the World Cup finals without winning the tournament?",
+    "alternatives": ["Mexico", "Netherlands", "Portugal", "Spain"],
+    "answer": 1
+  },
+  {
+    "question": "Who was the coach who led Germany to win the World Cup in 1990?",
+    "alternatives": [
+      "Franz Beckenbauer",
+      "Joachim Löw",
+      "Jürgen Klinsmann",
+      "Berti Vogts"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "In which World Cup did Diego Maradona score the famous 'Hand of God' goal?",
+    "alternatives": ["1982", "1986", "1990", "1994"],
+    "answer": 1
+  },
+  {
+    "question": "Which country was the first to win the World Cup with a team mostly composed of local league players?",
+    "alternatives": ["Italy", "Uruguay", "Brazil", "Germany"],
+    "answer": 0
+  },
+  {
+    "question": "Which country won the first World Cup held in Africa?",
+    "alternatives": ["Spain", "Brazil", "Germany", "South Africa"],
+    "answer": 0
+  },
+  {
+    "question": "Which player scored the fastest goal in World Cup history?",
+    "alternatives": [
+      "Pele",
+      "Hakan Şükür",
+      "Lionel Messi",
+      "Cristiano Ronaldo"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which country won the World Cup for the first time in 1998?",
+    "alternatives": ["France", "Brazil", "Argentina", "Germany"],
+    "answer": 0
+  },
+  {
+    "question": "Which team was the runner-up in the 2010 World Cup?",
+    "alternatives": ["Netherlands", "Germany", "Spain", "Brazil"],
+    "answer": 0
+  },
+  {
+    "question": "Which country was the first to win the World Cup after a penalty shootout?",
+    "alternatives": ["Brazil", "Italy", "Germany", "Argentina"],
+    "answer": 1
+  },
+  {
+    "question": "In which year did a country win the World Cup for the second time?",
+    "alternatives": ["1938", "1954", "1958", "1970"],
+    "answer": 0
+  },
+  {
+    "question": "Who was the first player to score a hat-trick in a World Cup final?",
+    "alternatives": ["Pelé", "Geoff Hurst", "Gerd Müller", "Just Fontaine"],
+    "answer": 1
+  },
+  {
+    "question": "Which player has the most appearances in World Cup matches?",
+    "alternatives": [
+      "Diego Maradona",
+      "Lothar Matthäus",
+      "Paolo Maldini",
+      "Cafu"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which country won the 1990 FIFA World Cup?",
+    "alternatives": ["Germany", "Brazil", "Italy", "Argentina"],
+    "answer": 0
+  },
+  {
+    "question": "Which country won the World Cup in 1954, known for the 'Miracle of Bern'?",
+    "alternatives": ["Germany", "Hungary", "Italy", "Uruguay"],
+    "answer": 0
+  },
+  {
+    "question": "In which World Cup did Pelé play his last match?",
+    "alternatives": ["1970", "1966", "1974", "1962"],
+    "answer": 0
+  },
+  {
+    "question": "Which country was the first to host the World Cup twice?",
+    "alternatives": ["Brazil", "Italy", "Mexico", "Germany"],
+    "answer": 2
+  },
+  {
+    "question": "Which country hosted the first World Cup after World War II?",
+    "alternatives": ["Brazil", "Sweden", "Italy", "England"],
+    "answer": 0
+  },
+  {
+    "question": "Which country has lost the most World Cup finals?",
+    "alternatives": ["Germany", "Brazil", "Netherlands", "Argentina"],
+    "answer": 0
+  },
+  {
+    "question": "Which country won the World Cup in 1986?",
+    "alternatives": ["Argentina", "Brazil", "Italy", "Germany"],
+    "answer": 0
+  },
+  {
+    "question": "Which country is the only one to have reached the World Cup finals without ever winning?",
+    "alternatives": ["Netherlands", "Belgium", "Portugal", "Spain"],
+    "answer": 0
+  },
+  {
+    "question": "Which player scored the most goals in a single World Cup tournament?",
+    "alternatives": ["Just Fontaine", "Gerd Müller", "Ronaldo Nazário", "Pelé"],
+    "answer": 0
+  },
+  {
+    "question": "Which country won the 1966 FIFA World Cup?",
+    "alternatives": ["England", "Brazil", "Germany", "Argentina"],
+    "answer": 0
+  },
+  {
+    "question": "In which World Cup was the first penalty shootout in a knockout match?",
+    "alternatives": ["1982", "1978", "1990", "1994"],
+    "answer": 0
+  },
+  {
+    "question": "Which country won the World Cup in 1974?",
+    "alternatives": ["Germany", "Netherlands", "Brazil", "Argentina"],
+    "answer": 0
+  }
+]

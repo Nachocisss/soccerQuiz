@@ -1,0 +1,229 @@
+[
+  {
+    "question": "¿Qué país ganó el Mundial en 1950 con una histórica victoria sobre Brasil en el partido final?",
+    "alternatives": ["Argentina", "Alemania", "Uruguay", "Italia"],
+    "answer": 2
+  },
+  {
+    "question": "¿Qué jugador anotó más goles en un solo partido de la Copa del Mundo, con 5 goles?",
+    "alternatives": [
+      "Oleg Salenko",
+      "Just Fontaine",
+      "Gary Lineker",
+      "Gerd Müller"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué equipo no concedió un solo gol durante todo el Mundial de 1998?",
+    "alternatives": ["Brasil", "Italia", "Francia", "Países Bajos"],
+    "answer": 2
+  },
+  {
+    "question": "¿Qué país tiene el récord de más finales de la Copa del Mundo perdidas?",
+    "alternatives": ["Alemania", "Brasil", "Argentina", "Países Bajos"],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué portero ha mantenido más veces su portería a cero en la historia de los Mundiales?",
+    "alternatives": [
+      "Peter Shilton",
+      "Fabien Barthez",
+      "Iker Casillas",
+      "Dino Zoff"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué jugador fue el primero en anotar en cuatro Mundiales diferentes?",
+    "alternatives": [
+      "Pelé",
+      "Miroslav Klose",
+      "Cristiano Ronaldo",
+      "Uwe Seeler"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "¿Qué país ganó la Copa del Mundo en 1982 con una memorable victoria 3-1 sobre Alemania?",
+    "alternatives": ["Brasil", "Argentina", "Italia", "Francia"],
+    "answer": 2
+  },
+  {
+    "question": "¿Qué país ganó el Mundial de 1978, celebrado en su propio país?",
+    "alternatives": ["Alemania", "Brasil", "Italia", "Argentina"],
+    "answer": 3
+  },
+  {
+    "question": "¿Qué jugador tiene el récord de más goles anotados en un solo torneo de la Copa del Mundo?",
+    "alternatives": ["Ronaldo", "Just Fontaine", "Gary Lineker", "Gerd Müller"],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué país ha ganado más Copas del Mundo de la FIFA en Sudamérica?",
+    "alternatives": ["Brasil", "Argentina", "Uruguay", "Chile"],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué país derrotó Italia en la final para ganar el Mundial de 2006?",
+    "alternatives": ["Francia", "Alemania", "Brasil", "Argentina"],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué equipo ha participado en más Mundiales consecutivos?",
+    "alternatives": ["Brasil", "Alemania", "Argentina", "Italia"],
+    "answer": 0
+  },
+  {
+    "question": "¿En qué Mundial se utilizó por primera vez la regla del gol de oro?",
+    "alternatives": ["1994", "1998", "2002", "2006"],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué país tiene la distinción de haber ganado la primera tanda de penales en la historia de los Mundiales?",
+    "alternatives": ["Alemania", "Italia", "Brasil", "Francia"],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué país tiene el récord de más apariciones en finales de la Copa del Mundo?",
+    "alternatives": ["Brasil", "Alemania", "Argentina", "Italia"],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué final de la Copa del Mundo se decidió por primera vez en una tanda de penales?",
+    "alternatives": ["1974", "1982", "1994", "2006"],
+    "answer": 2
+  },
+  {
+    "question": "¿Qué país ganó el Mundial de 2002 con un récord perfecto, ganando todos sus partidos?",
+    "alternatives": ["Brasil", "Alemania", "Argentina", "Francia"],
+    "answer": 0
+  },
+  [
+    {
+      "question": "¿Qué país ganó la Copa Mundial de la FIFA de 1962, celebrada en Chile?",
+      "alternatives": ["Brasil", "Argentina", "Italia", "Uruguay"],
+      "answer": 0
+    },
+    {
+      "question": "¿Quién anotó el hat-trick más rápido en la historia de la Copa del Mundo, tomando solo 6 minutos?",
+      "alternatives": [
+        "Sándor Kocsis",
+        "David Villa",
+        "Eduardo Vargas",
+        "Bryan Robson"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué país terminó tercero en la Copa Mundial de la FIFA de 1930, el torneo inaugural?",
+      "alternatives": ["Argentina", "Alemania", "Estados Unidos", "Yugoslavia"],
+      "answer": 3
+    },
+    {
+      "question": "¿Quién es el jugador más viejo en haber aparecido en un partido de la Copa del Mundo?",
+      "alternatives": [
+        "Essam El-Hadary",
+        "Roger Milla",
+        "Faryd Mondragón",
+        "Dino Zoff"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿Qué país ganó la primera Copa del Mundo celebrada después de la Segunda Guerra Mundial?",
+      "alternatives": ["Uruguay", "Brasil", "Italia", "Suiza"],
+      "answer": 0
+    },
+    {
+      "question": "¿Qué jugador tiene el récord de más asistencias en la Copa del Mundo?",
+      "alternatives": [
+        "Andrés Iniesta",
+        "Pelé",
+        "Diego Maradona",
+        "Lionel Messi"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué equipo ganó la Copa Mundial de la FIFA de 1958, celebrada en Suecia?",
+      "alternatives": ["Brasil", "Francia", "Alemania", "Argentina"],
+      "answer": 0
+    },
+    {
+      "question": "¿Quién anotó el gol ganador en la final de la Copa Mundial de la FIFA de 1990?",
+      "alternatives": [
+        "Andreas Brehme",
+        "Rudi Völler",
+        "Lothar Matthäus",
+        "Karl-Heinz Rummenigge"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿Qué país ganó la Copa Mundial de la FIFA de 1934, celebrada en Italia?",
+      "alternatives": ["Alemania", "Uruguay", "Argentina", "Italia"],
+      "answer": 3
+    },
+    {
+      "question": "¿Quién es el único jugador que ha ganado tres Copas del Mundo como jugador?",
+      "alternatives": ["Pelé", "Diego Maradona", "Cafu", "Mário Zagallo"],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué país ganó la Copa Mundial de la FIFA de 1974, celebrada en Alemania Occidental?",
+      "alternatives": ["Países Bajos", "Brasil", "Argentina", "Italia"],
+      "answer": 0
+    },
+    {
+      "question": "¿Quién anotó el primer gol en la historia de la Copa Mundial de la FIFA?",
+      "alternatives": [
+        "Lucien Laurent",
+        "Bert Patenaude",
+        "Georges Meuris",
+        "Petr Fiala"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿Qué jugador ha ganado la mayoría de los Balones de Oro de la Copa Mundial de la FIFA?",
+      "alternatives": [
+        "Diego Maradona",
+        "Lionel Messi",
+        "Zinedine Zidane",
+        "Pelé"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué país ganó la Copa Mundial de la FIFA en 1938, celebrada en Francia?",
+      "alternatives": ["Brasil", "Alemania", "Italia", "Francia"],
+      "answer": 2
+    },
+    {
+      "question": "¿Quién es el único portero que ha ganado el Balón de Oro de la Copa Mundial de la FIFA?",
+      "alternatives": [
+        "Oliver Kahn",
+        "Lev Yashin",
+        "Manuel Neuer",
+        "Gianluigi Buffon"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué país ganó la Copa Mundial de la FIFA en 1966, celebrada en Inglaterra?",
+      "alternatives": ["Inglaterra", "Brasil", "Alemania", "Italia"],
+      "answer": 0
+    },
+    {
+      "question": "¿Quién es el jugador más joven en anotar en un partido de la Copa Mundial?",
+      "alternatives": ["Pelé", "Michael Owen", "Lionel Messi", "Kylian Mbappé"],
+      "answer": 3
+    },
+    {
+      "question": "¿Qué equipo ganó el primer partido de la historia de la Copa Mundial de la FIFA?",
+      "alternatives": ["Francia", "México", "Estados Unidos", "Bélgica"],
+      "answer": 0
+    }
+  ]
+]

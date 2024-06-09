@@ -1,0 +1,292 @@
+[
+  {
+    "question": "In what year was the first FIFA World Cup held?",
+    "alternatives": ["1930", "1948", "1954", "1962"],
+    "answer": 0
+  },
+  {
+    "question": "Which country has won the most World Cups?",
+    "alternatives": ["Argentina", "Germany", "Brazil", "Italy"],
+    "answer": 2
+  },
+  {
+    "question": "Which player scored the 'Goal of the Century' in the 1986 World Cup?",
+    "alternatives": [
+      "Diego Maradona",
+      "Pelé",
+      "Lionel Messi",
+      "Zinedine Zidane"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which country hosted the 2018 FIFA World Cup?",
+    "alternatives": ["Germany", "Russia", "Brazil", "South Africa"],
+    "answer": 1
+  },
+  {
+    "question": "Which country is the only one to have won the World Cup 5 times?",
+    "alternatives": ["Germany", "Italy", "Argentina", "Brazil"],
+    "answer": 3
+  },
+  {
+    "question": "Who won the 2010 FIFA World Cup?",
+    "alternatives": ["Italy", "Brazil", "Germany", "Spain"],
+    "answer": 3
+  },
+  {
+    "question": "In which country was the 2014 FIFA World Cup held?",
+    "alternatives": ["Germany", "Brazil", "Argentina", "France"],
+    "answer": 1
+  },
+  {
+    "question": "Which of these countries has never won a World Cup?",
+    "alternatives": ["Uruguay", "England", "Netherlands", "France"],
+    "answer": 2
+  },
+  {
+    "question": "How many teams participated in the first World Cup?",
+    "alternatives": ["8", "13", "16", "32"],
+    "answer": 1
+  },
+  {
+    "question": "Which country was the host of the first World Cup?",
+    "alternatives": ["Argentina", "Italy", "Uruguay", "Brazil"],
+    "answer": 2
+  },
+  {
+    "question": "Which player is known as 'O Rei' in the football world?",
+    "alternatives": [
+      "Pelé",
+      "Diego Maradona",
+      "Lionel Messi",
+      "Cristiano Ronaldo"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which country won the 1998 FIFA World Cup?",
+    "alternatives": ["Argentina", "France", "Germany", "Italy"],
+    "answer": 1
+  },
+  {
+    "question": "In which World Cup was VAR (Video Assistant Referee) used for the first time?",
+    "alternatives": ["2014", "2010", "2018", "2022"],
+    "answer": 2
+  },
+  {
+    "question": "Which country has hosted the most World Cups?",
+    "alternatives": ["Brazil", "Germany", "Italy", "Mexico"],
+    "answer": 3
+  },
+  {
+    "question": "Which player is the top scorer in World Cup history?",
+    "alternatives": [
+      "Diego Maradona",
+      "Ronaldo Nazário",
+      "Miroslav Klose",
+      "Lionel Messi"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which was the first African country to reach the quarter-finals of a World Cup?",
+    "alternatives": ["Nigeria", "Cameroon", "Senegal", "Ghana"],
+    "answer": 1
+  },
+  {
+    "question": "Which country won the 2002 FIFA World Cup?",
+    "alternatives": ["Brazil", "Germany", "Italy", "Argentina"],
+    "answer": 0
+  },
+  {
+    "question": "Which country won the 2006 FIFA World Cup?",
+    "alternatives": ["Brazil", "France", "Germany", "Italy"],
+    "answer": 3
+  },
+  {
+    "question": "Which player scored the winning goal in the 2014 World Cup final?",
+    "alternatives": ["Lionel Messi", "Mario Götze", "Neymar", "Thomas Müller"],
+    "answer": 1
+  },
+  {
+    "question": "Which country was the first to win the World Cup on its own continent but outside its home country?",
+    "alternatives": ["Brazil", "Argentina", "Italy", "Germany"],
+    "answer": 0
+  },
+  {
+    "question": "In what year did Brazil first win the FIFA World Cup?",
+    "alternatives": ["1950", "1958", "1962", "1970"],
+    "answer": 1
+  },
+  {
+    "question": "Which country won the first ever FIFA World Cup?",
+    "alternatives": ["Brazil", "Uruguay", "Argentina", "Italy"],
+    "answer": 1
+  },
+  {
+    "question": "Which country hosted the 1994 FIFA World Cup?",
+    "alternatives": ["USA", "France", "Brazil", "Italy"],
+    "answer": 0
+  },
+  {
+    "question": "Who is known as the 'Hand of God' player?",
+    "alternatives": [
+      "Diego Maradona",
+      "Pelé",
+      "Cristiano Ronaldo",
+      "Lionel Messi"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which country has appeared in the most World Cup finals?",
+    "alternatives": ["Brazil", "Germany", "Italy", "Argentina"],
+    "answer": 1
+  },
+  {
+    "question": "Which country won the 1966 FIFA World Cup?",
+    "alternatives": ["Germany", "Brazil", "England", "Italy"],
+    "answer": 2
+  },
+  {
+    "question": "Which country was the runner-up in the 2014 FIFA World Cup?",
+    "alternatives": ["Brazil", "Germany", "Argentina", "Netherlands"],
+    "answer": 2
+  },
+  {
+    "question": "How often is the FIFA World Cup held?",
+    "alternatives": [
+      "Every 2 years",
+      "Every 4 years",
+      "Every 6 years",
+      "Every 8 years"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which country hosted the 2006 FIFA World Cup?",
+    "alternatives": ["Germany", "France", "Italy", "South Africa"],
+    "answer": 0
+  },
+  {
+    "question": "Which country won the 1982 FIFA World Cup?",
+    "alternatives": ["Brazil", "Italy", "Germany", "Argentina"],
+    "answer": 1
+  },
+  {
+    "question": "Which player won the Golden Boot in the 2014 FIFA World Cup?",
+    "alternatives": [
+      "Thomas Müller",
+      "Lionel Messi",
+      "James Rodríguez",
+      "Neymar"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which country was the first to host the World Cup twice?",
+    "alternatives": ["Brazil", "Italy", "France", "Mexico"],
+    "answer": 3
+  },
+  {
+    "question": "Which country won the first World Cup held in Asia?",
+    "alternatives": ["Brazil", "South Korea", "Germany", "Italy"],
+    "answer": 0
+  },
+  {
+    "question": "Which country won the 1970 FIFA World Cup?",
+    "alternatives": ["Italy", "Brazil", "Germany", "Argentina"],
+    "answer": 1
+  },
+  {
+    "question": "Which country was the first to win back-to-back World Cups?",
+    "alternatives": ["Brazil", "Italy", "Argentina", "Uruguay"],
+    "answer": 1
+  },
+  {
+    "question": "Which player scored the most goals in a single World Cup?",
+    "alternatives": ["Ronaldo", "Just Fontaine", "Gerd Müller", "Pelé"],
+    "answer": 1
+  },
+  {
+    "question": "Which country hosted the 1986 FIFA World Cup?",
+    "alternatives": ["Spain", "Mexico", "Argentina", "Brazil"],
+    "answer": 1
+  },
+  {
+    "question": "Which player is known as 'The Phenomenon'?",
+    "alternatives": ["Diego Maradona", "Pelé", "Ronaldo", "Lionel Messi"],
+    "answer": 2
+  },
+  {
+    "question": "Which country won the 1990 FIFA World Cup?",
+    "alternatives": ["Italy", "Argentina", "Germany", "Brazil"],
+    "answer": 2
+  },
+  {
+    "question": "Which country has the nickname 'The Three Lions'?",
+    "alternatives": ["England", "Germany", "Argentina", "France"],
+    "answer": 0
+  },
+  {
+    "question": "Who won the Golden Ball at the 2010 FIFA World Cup?",
+    "alternatives": [
+      "Diego Forlán",
+      "Lionel Messi",
+      "Andrés Iniesta",
+      "Cristiano Ronaldo"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which country hosted the first World Cup of the 21st century?",
+    "alternatives": ["France", "Germany", "Japan/South Korea", "Brazil"],
+    "answer": 2
+  },
+  {
+    "question": "Which team won the 1998 FIFA World Cup held in France?",
+    "alternatives": ["Brazil", "Italy", "Germany", "France"],
+    "answer": 3
+  },
+  {
+    "question": "Which country won the 1978 FIFA World Cup?",
+    "alternatives": ["Brazil", "Italy", "Argentina", "Germany"],
+    "answer": 2
+  },
+  {
+    "question": "Which country hosted the first FIFA World Cup in Africa?",
+    "alternatives": ["Nigeria", "South Africa", "Egypt", "Morocco"],
+    "answer": 1
+  },
+  {
+    "question": "Which player is known for his 'Scorpion Kick' save?",
+    "alternatives": [
+      "Lev Yashin",
+      "Gordon Banks",
+      "Rene Higuita",
+      "Iker Casillas"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which country has a player nicknamed 'Zizou'?",
+    "alternatives": ["Brazil", "Germany", "France", "Italy"],
+    "answer": 2
+  },
+  {
+    "question": "Which country has a stadium known as 'La Bombonera'?",
+    "alternatives": ["Brazil", "Argentina", "Italy", "Germany"],
+    "answer": 1
+  },
+  {
+    "question": "Which country won the first World Cup after World War II?",
+    "alternatives": ["Germany", "Italy", "Brazil", "Uruguay"],
+    "answer": 0
+  },
+  {
+    "question": "Which country won the 1994 FIFA World Cup held in the USA?",
+    "alternatives": ["Italy", "Brazil", "Germany", "Argentina"],
+    "answer": 1
+  }
+]

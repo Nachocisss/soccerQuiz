@@ -4,8 +4,12 @@
   width: 80%;
   padding: 12px;
   border-radius: 8px;
-  margin: 12px auto;
+  margin: auto;
+  cursor: pointer;
+  background: rgb(255, 81, 0);
 }
 .buttonTitle {
+  font-size: 16px;
   margin-left: 8px;
+  color: white;
 }
