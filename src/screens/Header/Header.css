@@ -1,7 +1,13 @@
 .headerContainer {
-  height: 100px;
+  height: 15vh;
   align-content: center;
+  align-items: center;
   display: flex;
   flex: 1;
   justify-content: center;
+}
+.headerContainer h1 {
+  font-size: 44px;
+  color: white;
+  margin-right: 8px;
 }

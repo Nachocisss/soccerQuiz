@@ -4,3 +4,6 @@
   background-color: white;
   border-radius: 16px;
 }
+.CardContainer h2 {
+  font-size: 32px;
+}
