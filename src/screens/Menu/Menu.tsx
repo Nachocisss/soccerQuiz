@@ -1,8 +1,8 @@
 import React from "react";
 import "./Menu.css";
-import { Card } from "../../components/Card/Card.tsx";
 import { FaPlay } from "react-icons/fa";
 import { TfiCup } from "react-icons/tfi";
+import { Button } from "../../components/Button/Button.tsx";
 const menuButtons = [
   {
     title: "Start Quiz",
@@ -17,10 +17,18 @@ const menuButtons = [
   },
 ];
 
-export function Menu() {
+function menuCard() {
   return (
-    <div className="menuScreen">
-      <Card buttons={menuButtons} />
+    <div className="CardContainer">
+      <h2>World Cup Party Quiz</h2>
+      <h3>{"subtitle"}</h3>
+      {menuButtons.map((m) => {
+        return <Button props={m} key={m.title} />;
+      })}
     </div>
   );
+}
+
+export function Menu() {
+  return <div className="menuScreen">{menuCard()}</div>;
 }

@@ -7,4 +7,8 @@
 }
 .CardContainer h2 {
   font-size: 32px;
+  color: tomato;
+}
+.progressBar {
+  width: 80%;
 }

@@ -6,7 +6,7 @@
   border-radius: 8px;
   margin: auto;
   cursor: pointer;
-  background: rgb(255, 81, 0);
+  background: tomato;
 }
 .buttonTitle {
   font-size: 16px;
