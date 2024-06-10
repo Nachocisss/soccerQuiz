@@ -1,0 +1,49 @@
+.modalContainer {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  height: 60vh;
+  width: 60vw;
+  border-radius: 8px;
+  background-color: black;
+  top: 0;
+  right: 0;
+  opacity: 0.9;
+}
+.titleContainer {
+  padding: 16px;
+}
+.modalTitle {
+  font-size: 38px;
+  color: white;
+}
+.levelsContainer {
+  display: flex;
+  justify-content: space-around;
+  flex: 1;
+}
+.dificultContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+.dificultText {
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+  margin-top: 12px;
+}
+.dificultContainer:hover {
+  cursor: pointer;
+}
+.dificultContainerEasy:hover {
+  background-color: rgb(4, 56, 0);
+}
+.dificultContainerMedium:hover {
+  background-color: rgb(71, 60, 0);
+}
+.dificultContainerHard:hover {
+  background-color: rgb(71, 0, 0);
+}
