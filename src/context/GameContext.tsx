@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useState } from "react";
-import questions from "../constants/QuestionsEasyEN.json";
+import questions from "../constants/Questions/QuestionsEasyEN.json";
 
 const questionTotal = questions.length;
 const initialIndex = generateNewIndex();
@@ -12,11 +12,16 @@ const gameContext = createContext({
   currentQuestion: initialQuestion,
   askedQuestionIndex: [initialIndex],
   generateNewQuestion: () => {},
+  dificult: null,
+  selectDificult: (d) => {
+    return d;
+  },
 });
 
 export function GameProvider({ children }: any) {
   const [currentQuestion, setCurrentQuestion] = useState(initialQuestion);
   const [askedQuestionIndex, setAskedQuestionIndex] = useState([initialIndex]);
+  const [dificult, setDificult] = useState(null);
 
   function generateNewQuestion() {
     const newIndex = generateNewIndex();
@@ -24,9 +29,19 @@ export function GameProvider({ children }: any) {
     setCurrentQuestion(questions[newIndex]);
   }
 
+  function selectDificult(d) {
+    setDificult(d);
+  }
+
   return (
     <gameContext.Provider
-      value={{ currentQuestion, askedQuestionIndex, generateNewQuestion }}
+      value={{
+        currentQuestion,
+        askedQuestionIndex,
+        generateNewQuestion,
+        dificult,
+        selectDificult,
+      }}
     >
       {children}
     </gameContext.Provider>
