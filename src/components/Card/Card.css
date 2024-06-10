@@ -4,13 +4,16 @@
   background-color: white;
   border-radius: 16px;
   border: black solid 1px;
+  align-content: center;
 }
 .cardContainer h2 {
   font-size: 32px;
   color: tomato;
 }
+
 .progressBar {
   width: 80%;
+  margin-bottom: 16px;
 }
 .cardQuestion {
   font-size: 16px;
