@@ -1,28 +1,18 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./Card.css";
 import { Button } from "../Button/Button.tsx";
-import questions from "../../constants/QuestionsEasyEN.json";
 import { useGameContext } from "../../context/GameContext.tsx";
 
 export function Card() {
-  const { askedQuestionIndex, addQuestionIndex } = useGameContext();
-  const questionIndex = 0;
-  const question = questions[questionIndex];
-
-  useEffect(() => {
-    addQuestionIndex(questionIndex);
-  }, []);
-
+  const { currentQuestion, askedQuestionIndex } = useGameContext();
+  const steps = askedQuestionIndex.length;
   return (
     <div className="cardContainer">
       <h2>World Cup Party Quiz</h2>
-      {askedQuestionIndex.map((q) => {
-        return <p key={q}>{q}</p>;
-      })}
-      <span className={"cardQuestion"}>{question.question}</span>
-      <p>Pregunta 1 de 10</p>
-      <progress value="10" max="100" className="progressBar" />
-      {question.alternatives.map((m) => {
+      <p className={"cardQuestion"}>{currentQuestion.question}</p>
+      <p>Pregunta {steps} de 10</p>
+      <progress value={steps * 10} max="100" className="progressBar" />
+      {currentQuestion.alternatives.map((m) => {
         return <Button props={{ title: m }} key={m} />;
       })}
     </div>
