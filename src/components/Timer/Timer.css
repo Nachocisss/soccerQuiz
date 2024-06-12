@@ -1,0 +1,17 @@
+.timeContainer {
+  position: absolute;
+  top: -25px;
+  right: -25px;
+  height: 70px;
+  width: 70px;
+  padding: 16px;
+  border-radius: 9999px;
+  align-content: center;
+  background: linear-gradient(125deg, rgb(156, 195, 255), rgb(0, 73, 183));
+}
+
+.timerText {
+  font-size: 48px;
+  font-weight: 700;
+  color: white;
+}
