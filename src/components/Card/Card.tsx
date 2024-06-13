@@ -15,10 +15,15 @@ export function Card() {
   const steps = askedQuestionIndex.length;
 
   const checkAnswer = (alternativeIndex) => {
-    console.log(alternativeIndex, currentQuestion.answer);
     if (alternativeIndex === currentQuestion.answer) {
       addScore();
     }
+  };
+
+  const onClickHandler = (index) => {
+    generateNewQuestion();
+    checkAnswer(index);
+    resetTime();
   };
 
   const optionsRender = () => {
@@ -27,9 +32,7 @@ export function Card() {
         <Button
           props={{
             title: alternative,
-            onClick: () => {
-              checkAnswer(index), generateNewQuestion(), resetTime();
-            },
+            onClick: () => onClickHandler(index),
           }}
           key={alternative}
         />
@@ -49,7 +52,7 @@ export function Card() {
         {optionsRender()}
       </>
     );
-  }, []);
+  }, [currentQuestion]);
 
   return (
     <div className="cardContainer">
