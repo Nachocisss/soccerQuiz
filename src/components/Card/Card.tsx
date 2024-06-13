@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useMemo } from "react";
 import "./Card.css";
 import { Button } from "../Button/Button.tsx";
 import { useGameContext } from "../../context/GameContext.tsx";
@@ -37,17 +37,25 @@ export function Card() {
     });
   };
 
+  const cardContent = useMemo(() => {
+    return (
+      <>
+        <h2>World Cup Party Quiz</h2>
+        <p className={"cardQuestion"}>{currentQuestion.question}</p>
+        <p>
+          Pregunta {steps} de {NUMBER_OF_QUESTION}
+        </p>
+        <progress value={steps * 10} max="100" className="progressBar" />
+        {optionsRender()}
+      </>
+    );
+  }, []);
+
   return (
     <div className="cardContainer">
       <Score />
       <Timer />
-      <h2>World Cup Party Quiz</h2>
-      <p className={"cardQuestion"}>{currentQuestion.question}</p>
-      <p>
-        Pregunta {steps} de {NUMBER_OF_QUESTION}
-      </p>
-      <progress value={steps * 10} max="100" className="progressBar" />
-      {optionsRender()}
+      {cardContent}
     </div>
   );
 }
