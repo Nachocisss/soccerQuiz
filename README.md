@@ -25,7 +25,7 @@ To get started with the World Cup Quiz App, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/world-cup-quiz-app.git
+   git clone https://github.com/Nachocisss/soccerQuiz
    ```
 2. **Navigate to the project directory:**
    ```bash
@@ -43,8 +43,8 @@ To get started with the World Cup Quiz App, follow these steps:
 ## Usage
 
 1. Open your web browser and navigate to `http://localhost:3000` to access the app.
-2. Choose a quiz category related to the World Cup.
-3. Start answering the questions within the time limit.
+2. Start the game or choose High Scores Board
+3. Answer the questions within the time limit.
 4. Submit your answers and check your score.
 
 ## Screenshots
@@ -55,7 +55,7 @@ To get started with the World Cup Quiz App, follow these steps:
 
 ### Quiz Interface
 
-![Quiz Interface](https://path/to/quiz-interface-screenshot.png) <!-- Replace with the actual path to the image -->
+![Quiz Interface](./public/gameScreen.png) <!-- Replace with the actual path to the image -->
 
 ### Leaderboard
 
