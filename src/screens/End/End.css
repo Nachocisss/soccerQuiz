@@ -1,0 +1,10 @@
+.endContainer {
+  height: 60vh;
+  justify-content: center;
+  align-content: center;
+}
+.endText {
+  font-size: 48px;
+  color: white;
+  font-weight: 800;
+}
