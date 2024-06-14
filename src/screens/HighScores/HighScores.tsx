@@ -3,39 +3,46 @@ import "./HighScores.css";
 import { TbHexagonNumber1 } from "react-icons/tb";
 import { TbHexagonNumber2 } from "react-icons/tb";
 import { TbHexagonNumber3 } from "react-icons/tb";
-import { IoArrowBack } from "react-icons/io5";
-import { useNavigate } from "react-router-dom";
+import { BackButton } from "../../components/Button/BackButton/BackButton.tsx";
 
-const podium = () => {
-  return (
-    <>
-      <div className="podium podiumSilver">
-        <TbHexagonNumber2 size={60} fill="silver" />
-      </div>
-      <div className="podium podiumGold">
-        <TbHexagonNumber1 size={60} fill="gold" />
-      </div>
-      <div className="podium podiumBronze">
-        <TbHexagonNumber3 size={60} fill="#bd371c" />
-      </div>
-    </>
-  );
-};
+const NO_NAME_YET = "No one yet!";
+
 export function HighScores() {
-  const navigate = useNavigate();
+  const podiumLevels = [
+    {
+      name: NO_NAME_YET,
+      className: "podiumSilver",
+      icon: <TbHexagonNumber2 size={60} fill="silver" />,
+    },
+    {
+      name: NO_NAME_YET,
+      className: "podiumGold",
+      icon: <TbHexagonNumber1 size={60} fill="gold" />,
+    },
+    {
+      name: NO_NAME_YET,
+      className: "podiumBronze",
+      icon: <TbHexagonNumber3 size={60} fill="#bd371c" />,
+    },
+  ];
+
+  const podiumLevelRender = (level) => {
+    return (
+      <div className="podium" key={level.name}>
+        <span>{level.name}</span>
+        <div className={level.className}>{level.icon}</div>
+      </div>
+    );
+  };
   return (
     <div className="highScoresBoard">
-      <div
-        className="iconBackContainer"
-        onClick={() => {
-          navigate("/");
-        }}
-      >
-        <IoArrowBack size={20} />
-        <span className="backText"> Back to menu</span>
+      <BackButton />
+      <h2> High Scores </h2>
+      <div className="podiumContainer">
+        {podiumLevels.map((level) => {
+          return podiumLevelRender(level);
+        })}
       </div>
-      <h2> High Scores</h2>
-      <div className="podiumContainer">{podium()}</div>
     </div>
   );
 }

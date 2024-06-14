@@ -4,7 +4,7 @@ import "./Score.css";
 export function Score() {
   const { score } = useScoreContext();
   return (
-    <div className="scoreContainer">
+    <div>
       <span className="scoreText">Your Score: {score}</span>
     </div>
   );

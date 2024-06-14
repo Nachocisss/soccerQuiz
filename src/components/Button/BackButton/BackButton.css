@@ -1,0 +1,20 @@
+.iconBackContainer {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: white;
+  stroke: white;
+  padding: 8px;
+  background-color: rgba(174, 77, 7, 0.678);
+  border-radius: 8px;
+}
+.iconBackContainer:hover {
+  color: black;
+  stroke: black;
+  background-color: rgba(255, 255, 255, 0.174);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.backText {
+  font-size: 18px;
+}

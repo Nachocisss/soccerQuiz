@@ -6,6 +6,7 @@ import { Score } from "../../components/Score/Score.tsx";
 import { useQuestionContext } from "../../context/QuestionContext.tsx";
 import { useScoreContext } from "../../context/ScoreContext.tsx";
 import { useNavigate } from "react-router-dom";
+import { BackButton } from "../../components/Button/BackButton/BackButton.tsx";
 
 const NUMBER_OF_QUESTION = 10;
 
@@ -49,6 +50,7 @@ export function Game() {
   const GameContent = useMemo(() => {
     return (
       <>
+        <BackButton />
         <h2>World Cup Party Quiz</h2>
         <p className={"gameQuestion"}>{currentQuestion.question}</p>
         <p>
