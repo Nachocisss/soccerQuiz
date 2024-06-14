@@ -27,9 +27,9 @@ function menuCard() {
 
   return (
     <div className="menuContainer">
+      <h2 className="menuTitle">Soccer Quiz!</h2>
       {openModal && <Modal />}
       <div className="menuSubtitleContainer">
-        <h2 className="menuTitle">World Cup Party Quiz</h2>
         <p className="menuSubtitle">
           <strong>Test your football knowledge</strong> with exciting questions
           about the World Cups history, iconic players, and memorable moments.

@@ -3,6 +3,8 @@ import "./HighScores.css";
 import { TbHexagonNumber1 } from "react-icons/tb";
 import { TbHexagonNumber2 } from "react-icons/tb";
 import { TbHexagonNumber3 } from "react-icons/tb";
+import { IoArrowBack } from "react-icons/io5";
+import { useNavigate } from "react-router-dom";
 
 const podium = () => {
   return (
@@ -20,8 +22,18 @@ const podium = () => {
   );
 };
 export function HighScores() {
+  const navigate = useNavigate();
   return (
     <div className="highScoresBoard">
+      <div
+        className="iconBackContainer"
+        onClick={() => {
+          navigate("/");
+        }}
+      >
+        <IoArrowBack size={20} />
+        <span className="backText"> Back to menu</span>
+      </div>
       <h2> High Scores</h2>
       <div className="podiumContainer">{podium()}</div>
     </div>

@@ -6,6 +6,8 @@
   border-radius: 24px;
   display: flex;
   flex-direction: column;
+  position: relative;
+  padding-top: 12px;
 }
 .podiumContainer {
   flex: 1;
@@ -15,7 +17,23 @@
   margin: 60px;
   margin-left: 15vw;
   margin-right: 15vw;
-  background-color: #bd371c;
+}
+.iconBackContainer {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: white;
+  stroke: white;
+  padding: 8px;
+}
+.iconBackContainer:hover {
+  color: black;
+  stroke: black;
+  background-color: rgba(255, 255, 255, 0.174);
+  border-radius: 10px;
+}
+.backText {
+  font-size: 28px;
 }
 .podium {
   flex: 1;
@@ -31,12 +49,42 @@
 .podiumGold {
   background-color: gold;
   height: 35vh;
+  animation-name: podiumGoldAnimation;
+  animation-duration: 2s;
+}
+@keyframes podiumGoldAnimation {
+  from {
+    height: 0px;
+  }
+  to {
+    height: 35vh;
+  }
 }
 .podiumSilver {
   background-color: silver;
   height: 25vh;
+  animation-name: podiumSilverAnimation;
+  animation-duration: 2s;
+}
+@keyframes podiumSilverAnimation {
+  from {
+    height: 0px;
+  }
+  to {
+    height: 25vh;
+  }
 }
 .podiumBronze {
   background-color: #bd371c;
   height: 15vh;
+  animation-name: podiumBronzeAnimation;
+  animation-duration: 2s;
+}
+@keyframes podiumBronzeAnimation {
+  from {
+    height: 0px;
+  }
+  to {
+    height: 15vh;
+  }
 }

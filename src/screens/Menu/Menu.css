@@ -4,7 +4,6 @@
   background-color: white;
   border-radius: 16px;
   border: black solid 1px;
-  align-content: center;
   position: relative;
 }
 .menuScreen {
@@ -14,6 +13,7 @@
   margin-top: 10vh;
 }
 .menuTitle {
+  font-size: 48px;
   color: tomato;
 }
 .menuSubtitleContainer {
