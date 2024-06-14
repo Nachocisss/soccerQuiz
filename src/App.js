@@ -7,6 +7,7 @@ import { QuestionProvider } from "./context/QuestionContext.tsx";
 import { ScoreProvider } from "./context/ScoreContext.tsx";
 import { End } from "./screens/End/End.tsx";
 import { Game } from "./screens/Game/Game.tsx";
+import { HighScores } from "./screens/HighScores/HighScores.tsx";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
               <Route index element={<Menu />} />
               <Route path={"/Game"} element={<Game />} />
               <Route path={"/End"} element={<End />} />
+              <Route path={"/HighScores"} element={<HighScores />} />
             </Routes>
           </BrowserRouter>
         </div>

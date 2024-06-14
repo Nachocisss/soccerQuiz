@@ -21,7 +21,7 @@ function menuCard() {
       title: "High Scores",
       icon: <TfiCup size={15} />,
       type: "Secondary",
-      onClick: () => navigate("/Game"),
+      onClick: () => navigate("/HighScores"),
     },
   ];
 

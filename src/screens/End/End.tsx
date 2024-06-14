@@ -21,7 +21,7 @@ export function End() {
       title: "High Scores",
       icon: <TfiCup size={14} fill="white" />,
       type: "Primary",
-      onClick: () => navigate("/Game"),
+      onClick: () => navigate("/HighScores"),
     },
   ];
 
