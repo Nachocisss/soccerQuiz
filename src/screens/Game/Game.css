@@ -1,11 +1,28 @@
 .gameScreen {
-  position: relative;
-  background-color: green;
-}
-.cardScreen {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin-top: 10vh;
+}
+.gameContainer {
+  height: 60vh;
+  width: 60vw;
+  background-color: white;
+  border-radius: 16px;
+  border: black solid 1px;
+  align-content: center;
+  position: relative;
+}
+.gameContainer h2 {
+  font-size: 32px;
+  color: tomato;
+}
+
+.progressBar {
+  width: 80%;
+  margin-bottom: 16px;
+}
+.gameQuestion {
+  font-size: 16px;
 }

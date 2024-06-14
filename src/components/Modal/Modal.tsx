@@ -5,7 +5,7 @@ import { FaTemperatureHalf } from "react-icons/fa6";
 import { FaTemperatureFull } from "react-icons/fa6";
 import { useNavigate } from "react-router-dom";
 import { useScoreContext } from "../../context/ScoreContext.tsx";
-import { useGameContext } from "../../context/GameContext.tsx";
+import { useQuestionContext } from "../../context/QuestionContext.tsx";
 
 const dificultsOptions = [
   {
@@ -25,7 +25,7 @@ const dificultsOptions = [
 export function Modal() {
   const navigate = useNavigate();
   const { resetGame } = useScoreContext();
-  const { resetQuestions } = useGameContext();
+  const { resetQuestions } = useQuestionContext();
 
   const clickHandler = () => {
     resetGame();
@@ -38,6 +38,7 @@ export function Modal() {
       <div
         className={`dificultContainer dificultContainer${option.title}`}
         onClick={() => clickHandler()}
+        key={option.title}
       >
         {option.icon}
         <span className="dificultText"> {option.title}</span>

@@ -8,7 +8,7 @@ const initialQuestion = questions[initialIndex];
 function generateNewIndex() {
   return Math.floor(Math.random() * questionTotal);
 }
-const gameContext = createContext({
+const questionContext = createContext({
   currentQuestion: initialQuestion,
   askedQuestionIndex: [initialIndex],
   generateNewQuestion: () => {},
@@ -19,7 +19,7 @@ const gameContext = createContext({
   resetQuestions: () => {},
 });
 
-export function GameProvider({ children }: any) {
+export function QuestionProvider({ children }: any) {
   const [currentQuestion, setCurrentQuestion] = useState(initialQuestion);
   const [askedQuestionIndex, setAskedQuestionIndex] = useState([initialIndex]);
   const [dificult, setDificult] = useState(null);
@@ -40,7 +40,7 @@ export function GameProvider({ children }: any) {
   }
 
   return (
-    <gameContext.Provider
+    <questionContext.Provider
       value={{
         currentQuestion,
         askedQuestionIndex,
@@ -51,10 +51,10 @@ export function GameProvider({ children }: any) {
       }}
     >
       {children}
-    </gameContext.Provider>
+    </questionContext.Provider>
   );
 }
 
-export function useGameContext() {
-  return useContext(gameContext);
+export function useQuestionContext() {
+  return useContext(questionContext);
 }

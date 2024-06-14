@@ -3,15 +3,15 @@ import "./App.css";
 import { Menu } from "./screens/Menu/Menu.tsx";
 import { Header } from "./screens/Header/Header.tsx";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Game } from "./screens/Game/Game.tsx";
-import { GameProvider } from "./context/GameContext.tsx";
+import { QuestionProvider } from "./context/QuestionContext.tsx";
 import { ScoreProvider } from "./context/ScoreContext.tsx";
 import { End } from "./screens/End/End.tsx";
+import { Game } from "./screens/Game/Game.tsx";
 
 function App() {
   return (
     <ScoreProvider>
-      <GameProvider>
+      <QuestionProvider>
         <div className="App">
           <Header />
           <BrowserRouter>
@@ -22,7 +22,7 @@ function App() {
             </Routes>
           </BrowserRouter>
         </div>
-      </GameProvider>
+      </QuestionProvider>
     </ScoreProvider>
   );
 }
