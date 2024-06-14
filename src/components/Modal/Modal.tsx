@@ -4,7 +4,8 @@ import { FaTemperatureQuarter } from "react-icons/fa6";
 import { FaTemperatureHalf } from "react-icons/fa6";
 import { FaTemperatureFull } from "react-icons/fa6";
 import { useNavigate } from "react-router-dom";
-import { useScore } from "../../context/ScoreContext.tsx";
+import { useScoreContext } from "../../context/ScoreContext.tsx";
+import { useGameContext } from "../../context/GameContext.tsx";
 
 const dificultsOptions = [
   {
@@ -23,10 +24,12 @@ const dificultsOptions = [
 
 export function Modal() {
   const navigate = useNavigate();
-  const { resetTime } = useScore();
+  const { resetGame } = useScoreContext();
+  const { resetQuestions } = useGameContext();
 
   const clickHandler = () => {
-    resetTime();
+    resetGame();
+    resetQuestions();
     navigate("/Game");
   };
 

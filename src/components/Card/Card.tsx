@@ -4,7 +4,7 @@ import { Button } from "../Button/Button.tsx";
 import { Timer } from "../Timer/Timer.tsx";
 import { Score } from "../Score/Score.tsx";
 import { useGameContext } from "../../context/GameContext.tsx";
-import { useScore } from "../../context/ScoreContext.tsx";
+import { useScoreContext } from "../../context/ScoreContext.tsx";
 import { useNavigate } from "react-router-dom";
 
 const NUMBER_OF_QUESTION = 10;
@@ -12,7 +12,7 @@ const NUMBER_OF_QUESTION = 10;
 export function Card() {
   const { currentQuestion, askedQuestionIndex, generateNewQuestion } =
     useGameContext();
-  const { resetTime, addScore } = useScore();
+  const { resetTime, addScore } = useScoreContext();
   const steps = askedQuestionIndex.length;
   const navigate = useNavigate();
 

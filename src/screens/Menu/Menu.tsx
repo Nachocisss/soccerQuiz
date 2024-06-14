@@ -28,8 +28,14 @@ function menuCard() {
   return (
     <div className="cardContainer">
       {openModal && <Modal />}
-      <h2>World Cup Party Quiz</h2>
-      <h3>{"subtitle"}</h3>
+      <div className="menuSubtitleContainer">
+        <h2>World Cup Party Quiz</h2>
+        <p className="menuSubtitle">
+          <strong>Test your football knowledge</strong> with exciting questions
+          about the World Cups history, iconic players, and memorable moments.
+        </p>
+      </div>
+      <h3>Are you up for the challenge? Play now!</h3>
 
       {menuButtons.map((m) => {
         return <Button props={m} key={m.title} />;

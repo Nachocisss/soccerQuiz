@@ -1,8 +1,8 @@
 import React from "react";
-import { useScore } from "../../context/ScoreContext.tsx";
+import { useScoreContext } from "../../context/ScoreContext.tsx";
 import "./Score.css";
 export function Score() {
-  const { score } = useScore();
+  const { score } = useScoreContext();
   return (
     <div className="scoreContainer">
       <span className="scoreText">Your Score: {score}</span>

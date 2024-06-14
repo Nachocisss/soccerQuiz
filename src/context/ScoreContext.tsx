@@ -5,6 +5,7 @@ const initialStates = {
   addScore: () => {},
   time: 7,
   resetTime: () => {},
+  resetGame: () => {},
 };
 
 const ScoreContext = createContext(initialStates);
@@ -27,17 +28,23 @@ export function ScoreProvider({ children }: any) {
   function resetTime() {
     setTime(INITIAL_TIME_SECONDS);
   }
+  function resetGame() {
+    setTime(INITIAL_TIME_SECONDS);
+    setScore(0);
+  }
 
   function addScore() {
     setScore((prev) => prev + time);
   }
   return (
-    <ScoreContext.Provider value={{ score, addScore, time, resetTime }}>
+    <ScoreContext.Provider
+      value={{ score, addScore, time, resetTime, resetGame }}
+    >
       {children}
     </ScoreContext.Provider>
   );
 }
 
-export function useScore() {
+export function useScoreContext() {
   return useContext(ScoreContext);
 }

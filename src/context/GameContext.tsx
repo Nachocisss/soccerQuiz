@@ -16,6 +16,7 @@ const gameContext = createContext({
   selectDificult: (d) => {
     return d;
   },
+  resetQuestions: () => {},
 });
 
 export function GameProvider({ children }: any) {
@@ -33,6 +34,11 @@ export function GameProvider({ children }: any) {
     setDificult(d);
   }
 
+  function resetQuestions() {
+    setCurrentQuestion(initialQuestion);
+    setAskedQuestionIndex([initialIndex]);
+  }
+
   return (
     <gameContext.Provider
       value={{
@@ -41,6 +47,7 @@ export function GameProvider({ children }: any) {
         generateNewQuestion,
         dificult,
         selectDificult,
+        resetQuestions,
       }}
     >
       {children}

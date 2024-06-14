@@ -1,5 +1,5 @@
 import React from "react";
-import { useScore } from "../../context/ScoreContext.tsx";
+import { useScoreContext } from "../../context/ScoreContext.tsx";
 import "./End.css";
 import { useNavigate } from "react-router-dom";
 import { Button } from "../../components/Button/Button.tsx";
@@ -8,7 +8,7 @@ import { TfiCup } from "react-icons/tfi";
 
 export function End() {
   const navigate = useNavigate();
-  const { score } = useScore();
+  const { score } = useScoreContext();
 
   const endButtons = [
     {
