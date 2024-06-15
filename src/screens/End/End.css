@@ -9,9 +9,54 @@
   font-size: 48px;
   color: white;
   font-weight: 800;
+  margin-bottom: 16px;
+}
+.congratsText {
+  font-size: 24px;
+  color: white;
+  font-weight: 800;
+}
+.iconContainer {
+  animation: iconMovement 1.5s linear infinite;
+}
+@keyframes iconMovement {
+  0% {
+    transform: rotate(-5deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(-5deg);
+  }
+}
+.endForm {
+  padding-top: 32px;
+}
+.endInputLabel {
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+}
+.endInputInput {
+  font-size: 14px;
+  font-weight: 800;
+  margin: 12px;
+  padding: 8px;
+  color: black;
+  border-radius: 4px;
+}
+.endInputButton {
+  font-size: 14px;
+  font-weight: 800;
+  margin: 12px;
+  padding: 8px;
+  background-color: rgb(233, 215, 203);
+  color: black;
+  border-radius: 4px;
 }
 .buttonsContainer {
-  margin-top: 24px;
+  margin-top: 48px;
   display: flex;
   width: 40vw;
   gap: 32px;
