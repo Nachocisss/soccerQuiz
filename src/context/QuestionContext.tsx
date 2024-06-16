@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useState } from "react";
-import questions from "../constants/Questions/QuestionsEasyEN.json";
+import questions from "../constants/Questions/Questions.json";
 
 const questionTotal = questions.length;
 const initialIndex = generateNewIndex();
