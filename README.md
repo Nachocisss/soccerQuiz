@@ -1,6 +1,6 @@
 # World Cup Quiz App
 
-![World Cup Quiz App Banner](./public/gameScreen.png) <!-- Replace with the actual path to the image -->
+![HomePage](./public/homePage.png) <!-- Replace with the actual path to the image -->
 
 Welcome to the **World Cup Quiz App**! This application is designed to test your knowledge about the World Cup, the world's most popular football tournament. The quiz covers various aspects of the tournament, including historical moments, player statistics, and general trivia. It’s a fun and engaging way to learn more about the World Cup.
 
@@ -48,10 +48,6 @@ To get started with the World Cup Quiz App, follow these steps:
 4. Submit your answers and check your score.
 
 ## Screenshots
-
-### Home Page
-
-![Home Page](https://path/to/home-page-screenshot.png) -->
 
 ### Quiz Interface
 
