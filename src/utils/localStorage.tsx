@@ -1,6 +1,8 @@
-const FIRST_PLACE = "firstPlace";
-const SECOND_PLACE = "secondPlace";
-const THIRD_PLACE = "thirdPlace";
+import {
+  FIRST_PLACE,
+  SECOND_PLACE,
+  THIRD_PLACE,
+} from "../constants/PlacesConstans.tsx";
 
 export function getHighScores() {
   const getParsedItem = (key) => {

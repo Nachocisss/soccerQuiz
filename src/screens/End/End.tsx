@@ -6,11 +6,14 @@ import { Button } from "../../components/Button/Button.tsx";
 import { IoArrowBack } from "react-icons/io5";
 import { TfiCup } from "react-icons/tfi";
 import { checkHighScore, setNewHighScore } from "../../utils/localStorage.tsx";
+import { positionIcons } from "../../constants/PlacesConstans.tsx";
 
 export function End() {
   const navigate = useNavigate();
   const { score } = useScoreContext();
   const [rankingPosition, setRankingPosition] = useState("");
+  const [highScoreNameSubmited, setHighScoreNameSubmited] = useState(false);
+
   useEffect(() => {
     const podiumPosition = checkHighScore(score);
     if (podiumPosition) {
@@ -34,6 +37,7 @@ export function End() {
   ];
 
   const submitHandler = (e) => {
+    setHighScoreNameSubmited(true);
     e.preventDefault();
     const name = document.getElementById("inputName")?.value ?? "";
     if (rankingPosition) {
@@ -50,14 +54,19 @@ export function End() {
         <div className="iconContainer">
           <p className="congratsText"> Congrats! You are on the podium! </p>
           <TfiCup size={60} fill="white" stroke="yellow" strokeWidth={0.5} />
+          {positionIcons[rankingPosition]}
         </div>
-        <form className="endForm" onSubmit={submitHandler}>
-          <label htmlFor="name" className="endInputLabel">
-            Your Name:{" "}
-          </label>
-          <input className="endInputInput" type="text" id="inputName" />
-          <button className="endInputButton">Submit</button>
-        </form>
+        {!highScoreNameSubmited ? (
+          <form className="endForm" onSubmit={submitHandler}>
+            <label htmlFor="name" className="endInputLabel">
+              Your Name:{" "}
+            </label>
+            <input className="endInputInput" type="text" id="inputName" />
+            <button className="endInputButton">Submit</button>
+          </form>
+        ) : (
+          <p className="congratsText"> Submited! Check the High Score Board </p>
+        )}
       </>
     );
   };

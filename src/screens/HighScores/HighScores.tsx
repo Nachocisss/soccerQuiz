@@ -1,10 +1,8 @@
 import React from "react";
 import "./HighScores.css";
-import { TbHexagonNumber1 } from "react-icons/tb";
-import { TbHexagonNumber2 } from "react-icons/tb";
-import { TbHexagonNumber3 } from "react-icons/tb";
 import { BackButton } from "../../components/Button/BackButton/BackButton.tsx";
 import { getHighScores } from "../../utils/localStorage.tsx";
+import { positionIcons } from "../../constants/PlacesConstans.tsx";
 
 const NO_NAME_YET = "No one yet!";
 
@@ -14,28 +12,26 @@ export function HighScores() {
     {
       name: records.second?.name ?? NO_NAME_YET,
       className: "podiumSilver",
-      icon: <TbHexagonNumber2 size={60} fill="silver" />,
+      icon: positionIcons["secondPlace"],
       score: records.second?.score ?? null,
     },
     {
       name: records.first?.name ?? NO_NAME_YET,
       className: "podiumGold",
-      icon: <TbHexagonNumber1 size={60} fill="gold" />,
+      icon: positionIcons["firstPlace"],
       score: records.first?.score ?? null,
     },
     {
       name: records.third?.name ?? NO_NAME_YET,
       className: "podiumBronze",
-      icon: <TbHexagonNumber3 size={60} fill="#bd371c" />,
+      icon: positionIcons["thirdPlace"],
       score: records.third?.score ?? null,
     },
   ];
 
   const podiumLevelRender = (level) => {
-    console.log(level.score);
-
     return (
-      <div className="podium" key={level.name}>
+      <div className="podium" key={level.className}>
         <span className="podiumText">{level.name}</span>
         <div className={`podiumInside ${level.className}`}>
           {level.icon}
