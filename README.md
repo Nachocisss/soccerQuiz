@@ -51,7 +51,7 @@ To get started with the World Cup Quiz App, follow these steps:
 
 ### Quiz Interface
 
-![Quiz Interface](./public/gameScreen.png)
+![Quiz Interface](./public/gameScreenV2.png)
 
 ### HighScores
 
