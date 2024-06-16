@@ -1,17 +1,21 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { useScoreContext } from "../../context/ScoreContext.tsx";
 import "./End.css";
 import { useNavigate } from "react-router-dom";
 import { Button } from "../../components/Button/Button.tsx";
 import { IoArrowBack } from "react-icons/io5";
 import { TfiCup } from "react-icons/tfi";
-import { checkHighScore } from "../../utils/localStorage.tsx";
+import { checkHighScore, setNewHighScore } from "../../utils/localStorage.tsx";
 
 export function End() {
   const navigate = useNavigate();
   const { score } = useScoreContext();
+  const [rankingPosition, setRankingPosition] = useState("");
   useEffect(() => {
-    checkHighScore(score);
+    const podiumPosition = checkHighScore(score);
+    if (podiumPosition) {
+      setRankingPosition(podiumPosition);
+    }
   }, []);
 
   const endButtons = [
@@ -32,27 +36,36 @@ export function End() {
   const submitHandler = (e) => {
     e.preventDefault();
     const name = document.getElementById("inputName")?.value ?? "";
-    console.log(name);
-    localStorage.setItem(
-      "firstPlace",
-      JSON.stringify({ name: name, score: score })
+    if (rankingPosition) {
+      setNewHighScore(
+        rankingPosition,
+        JSON.stringify({ name: name, score: score })
+      );
+    }
+  };
+
+  const rankingFormRender = () => {
+    return (
+      <>
+        <div className="iconContainer">
+          <p className="congratsText"> Congrats! You are on the podium! </p>
+          <TfiCup size={60} fill="white" stroke="yellow" strokeWidth={0.5} />
+        </div>
+        <form className="endForm" onSubmit={submitHandler}>
+          <label htmlFor="name" className="endInputLabel">
+            Your Name:{" "}
+          </label>
+          <input className="endInputInput" type="text" id="inputName" />
+          <button className="endInputButton">Submit</button>
+        </form>
+      </>
     );
   };
 
   return (
     <div className="endContainer">
       <span className="endText">Game Over! Your score: {score}</span>
-      <div className="iconContainer">
-        <p className="congratsText"> Congrats! You are on the podium! </p>
-        <TfiCup size={60} fill="white" stroke="yellow" strokeWidth={0.5} />
-      </div>
-      <form className="endForm" onSubmit={submitHandler}>
-        <label htmlFor="name" className="endInputLabel">
-          Your Name:{" "}
-        </label>
-        <input className="endInputInput" type="text" id="inputName" />
-        <button className="endInputButton">Submit</button>
-      </form>
+      {rankingPosition && rankingFormRender()}
       <div className="buttonsContainer">
         {endButtons.map((option) => {
           return <Button key={option.title} props={option} />;

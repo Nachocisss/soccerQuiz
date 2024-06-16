@@ -10,8 +10,6 @@ const NO_NAME_YET = "No one yet!";
 
 export function HighScores() {
   const records = getHighScores();
-  console.log(records.first);
-
   const podiumLevels = [
     {
       name: records.second?.name ?? NO_NAME_YET,
