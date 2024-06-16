@@ -1,3 +1,7 @@
+const FIRST_PLACE = "firstPlace";
+const SECOND_PLACE = "secondPlace";
+const THIRD_PLACE = "thirdPlace";
+
 export function getHighScores() {
   const getParsedItem = (key) => {
     try {
@@ -9,31 +13,44 @@ export function getHighScores() {
     }
   };
 
-  const first = getParsedItem("firstPlace");
-  const second = getParsedItem("secondPlace");
-  const third = getParsedItem("thirdPlace");
+  const first = getParsedItem(FIRST_PLACE);
+  const second = getParsedItem(SECOND_PLACE);
+  const third = getParsedItem(THIRD_PLACE);
 
   return {
-    first: first,
-    second: second,
-    third: third,
+    first: first ?? "",
+    second: second ?? "",
+    third: third ?? "",
   };
 }
 
 export function checkHighScore(score) {
   const { first, second, third } = getHighScores();
   if (!first || score > first?.score) {
-    return "firstPlace";
+    return FIRST_PLACE;
   }
   if (!second || score > second?.score) {
-    return "secondPlace";
+    return SECOND_PLACE;
   }
   if (!third || score > third?.score) {
-    return "thirdPlace";
+    return THIRD_PLACE;
   }
   return;
 }
 
 export function setNewHighScore(key, data) {
-  localStorage.setItem(key, data);
+  if (key === FIRST_PLACE) {
+    const { first, second } = getHighScores();
+    localStorage.setItem(SECOND_PLACE, JSON.stringify(first));
+    localStorage.setItem(THIRD_PLACE, JSON.stringify(second));
+    localStorage.setItem(FIRST_PLACE, data);
+  }
+  if (key === SECOND_PLACE) {
+    const { second } = getHighScores();
+    localStorage.setItem(THIRD_PLACE, JSON.stringify(second));
+    localStorage.setItem(SECOND_PLACE, data);
+  }
+  if (key === THIRD_PLACE) {
+    localStorage.setItem(THIRD_PLACE, data);
+  }
 }
