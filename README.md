@@ -51,15 +51,19 @@ To get started with the World Cup Quiz App, follow these steps:
 
 ### Home Page
 
-![Home Page](https://path/to/home-page-screenshot.png) <!-- Replace with the actual path to the image -->
+![Home Page](https://path/to/home-page-screenshot.png) -->
 
 ### Quiz Interface
 
-![Quiz Interface](./public/gameScreen.png) <!-- Replace with the actual path to the image -->
+![Quiz Interface](./public/gameScreen.png)
 
-### Leaderboard
+### HighScores
 
-![Leaderboard](https://path/to/leaderboard-screenshot.png) <!-- Replace with the actual path to the image -->
+![HighScores](./public/highScores.png)
+
+### EndGame
+
+![EndGame](./public/endGame.png)
 
 ## Acknowledgments
 
